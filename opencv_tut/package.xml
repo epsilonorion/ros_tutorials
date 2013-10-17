@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+  <name>opencv_tut</name>
+  <version>0.0.0</version>
+  <description>The opencv_tut package</description>
+
+  <maintainer email="epsilonorion@gmail.com">Joshua Weaver</maintainer>
+
+  <license>TODO</license>
+
+  <!-- <url type="website">http://ros.org/wiki/opencv_tut</url> -->
+
+  <author email="epsilonorion@gmail.com">Joshua Weaver</author>
+
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>OpenCV</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>OpenCV</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export>
+
+  </export>
+</package>

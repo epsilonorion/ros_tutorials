@@ -1,0 +1,6 @@
+<!--xml-->
+<launch>
+  <node pkg="opencv_tut" type="circleImage" name="circleImage" output="screen">
+    <remap from="in" to="camera/image_raw" />
+  </node>
+</launch>

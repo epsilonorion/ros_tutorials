@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_tutorials</name>
+  <version>0.0.0</version>
+  <description>The ros_tutorials package</description>
+
+  <maintainer email="epsilonorion@gmail.com">Josh Weaver</maintainer>
+  <license>TODO</license>
+  <!-- <url type="website">http://ros.org/wiki/</url> -->
+  <author email="epsilonorion@gmail.com">Josh Weaver</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- ADD EACH PACKAGE NAME FOR THE PROJECT HERE -->
+  <run_depend>beginner_tut</run_depend>
+  <run_depend>opencv_tut</run_depend>
+  <run_depend>smach_tut</run_depend>
+  <run_depend>action_tut</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
