@@ -4,15 +4,10 @@ project(opencv_tut)
 find_package(catkin REQUIRED COMPONENTS cv_bridge image_transport roscpp sensor_msgs std_msgs message_generation)
 find_package(OpenCV REQUIRED)
 
-#add_message_files(
-#  FILES
+#generate_messages(
+#  DEPENDENCIES
+#  opencv_tut
 #)
-
-generate_messages(
-  DEPENDENCIES
-  opencv_tut
-)
-
 
 include_directories(include
   ${catkin_INCLUDE_DIRS}
@@ -20,7 +15,7 @@ include_directories(include
 )
 
 catkin_package(
-   INCLUDE_DIRS include
+#   INCLUDE_DIRS include
 #  LIBRARIES opencv_tut
 #  CATKIN_DEPENDS cv_bridge image_transport opencv2 roscpp sensor_msgs std_msgs message_runtime
 #  DEPENDS system_lib

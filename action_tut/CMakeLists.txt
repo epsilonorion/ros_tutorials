@@ -32,14 +32,16 @@ include_directories(include
 )
 
 add_executable(example_action_server src/example_action_server.cpp)
-add_dependencies(example_action_server example_action_gencpp)
+#add_dependencies(example_action_server example_action_gencpp)
+add_dependencies(example_action_server ${${PROJECT_NAME}_EXPORTED_TARGETS})
 target_link_libraries(
   example_action_server
   ${catkin_LIBRARIES}
 )
 
 add_executable(example_action_client src/example_action_client.cpp)
-add_dependencies(example_action_client example_action_gencpp)
+#add_dependencies(example_action_client example_action_gencpp)
+add_dependencies(example_action_client ${${PROJECT_NAME}_EXPORTED_TARGETS})
 target_link_libraries(
   example_action_client
   ${catkin_LIBRARIES}

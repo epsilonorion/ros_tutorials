@@ -79,7 +79,7 @@ public:
         /// Apply the Hough Transform to find the circles
         HoughCircles( src_gray, circles, CV_HOUGH_GRADIENT, 2, 20, 100, 155, 20, 300);              // NEEDS TO BE TUNED
 
-        ROS_INFO("Number of circles = %d", circles.size());
+        ROS_INFO("Number of circles = %d", (int)circles.size());
 
         /// Draw the circles detected
         for( size_t i = 0; i < circles.size(); i++ )
