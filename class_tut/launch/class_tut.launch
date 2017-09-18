@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+
+<launch>
+
+	<node pkg = "class_tut" type="class_tut" name="class_tut" output="screen">
+		<param name="message" value="a_message"/>
+	</node>
+
+</launch>
