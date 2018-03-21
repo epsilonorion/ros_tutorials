@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="gtest_tut" type="gtest_talker" name="talker">
+  </node>
+
+  <node pkg="gtest_tut" type="gtest_listener" name="listener" output="screen">
+  </node>
+</launch>

@@ -1,6 +1,6 @@
 /**
  * @author Joshua Weaver
- * @date 6/22/17
+ * @date 8/11/15
  *
  * @brief Define a simple object class for an example of use within ROS
  *
